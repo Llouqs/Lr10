@@ -6,7 +6,7 @@ LRESULT _stdcall WndProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam){
 		break;
 	case WM_DESTROY:
 		PostQuitMessage(0);
-    break;
+		break;
 	default: return DefWindowProcA(hWnd, uMsg, wParam, lParam);
 	}
 }
